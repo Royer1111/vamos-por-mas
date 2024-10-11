@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te Amo Mucho</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cascadia+Code&display=swap" rel="stylesheet"> <!-- Fuente Cascadia Code -->
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Dancing Script', cursive; /* Fuente bonita */
+            background-image: url('fondo.jpg'); /* Usamos 'fondo.jpg' como imagen de fondo */
+            background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+            background-position: center; /* Centra la imagen */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            background-attachment: fixed; /* Hace que el fondo permanezca fijo al hacer scroll */
+            color: black; /* Color del texto */
+        }
+
+        .container {
+            padding: 50px;
+            border-radius: 10px;
+            margin: 20px; /* Margen para no estar pegado al borde */
+        }
+
+        h1 {
+            font-size: 4em; /* Aumenta el tamaño del texto "Te Amo Mucho" */
+            text-align: center; /* Centrar el título principal */
+        }
+
+        h2 {
+            margin-top: 15px; /* Reducir margen superior para subir contenido */
+            text-align: center; /* Mantener títulos centrados */
+            font-size: 3em; /* Aumentar tamaño del texto "¿Recuerdas?" y "¿Y cómo olvidar?" */
+        }
+
+        .left-title {
+            color: red; /* Color rojo */
+            font-size: 2em; /* Tamaño de la fuente */
+            text-align: left; /* Alinear texto a la izquierda */
+            font-weight: bold; /* Negrita */
+            margin-top: 20px; /* Espacio arriba */
+            margin-left: 20px; /* Margen a la izquierda */
+            text-decoration: none; /* Sin subrayado */
+        }
+
+        .description {
+            text-align: left; /* Alinear el texto a la izquierda */
+            margin: 60px 20px 20px 20px; /* Subido una línea (60px de margen superior) */
+            font-size: 1.5em; /* Tamaño de fuente ajustado */
+            max-width: 400px; /* Ancho máximo del texto */
+            position: absolute; /* Posición absoluta para limitar al área izquierda */
+            top: 250px; /* Altura del título VAMOS POR MÁS ❤️ */
+            left: 20px; /* Mantener texto alineado a la izquierda */
+        }
+
+        .photo-gallery, .video-gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 10px; /* Reducir margen superior para subir el contenido */
+        }
+
+        .photo-gallery img, .video-gallery video {
+            width: 200px;
+            height: auto;
+            margin: 10px;
+            border-radius: 10px;
+            border: 5px solid #000; /* Marco negro de 5px */
+        }
+
+        .video-gallery video {
+            width: 300px; /* Ancho ajustado */
+            height: 533px; /* Altura ajustada para formato 9:16 */
+        }
+
+        .countdown {
+            font-size: 1.2em; /* Tamaño de la fuente reducido */
+            margin-top: 60px; /* Añadido más espacio entre el texto y el contador */
+            text-align: left; /* Texto alineado a la izquierda */
+            font-family: 'Cascadia Code', monospace; /* Fuente Cascadia Code */
+            margin-left: 20px; /* Mantener en la izquierda */
+            position: absolute;
+            top: 1220px; /* Posiciona el contador más abajo */
+            left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Te Amo Mucho</h1>
+        <div class="left-title">VAMOS POR MÁS ❤️</div> <!-- Título a la izquierda, sin subrayado -->
+        <div class="description">
+            <p>Quién lo diría, ya casi un año. Han pasado muchas cosas, hemos pasado algunos percances, muchos altibajos, unos días mejores que otros. No ha estado fácil, no la hemos tenido fácil, pero lo hemos podido afrontar con todo. La verdad, muchos obstáculos, más de lo que me gustaría. No hicimos las cosas de la mejor manera, han surgido cosas que nos han complicado las cosas, pero hay una cosa que siempre he tenido clara.</p>
+            <p>Te amo y te amo mucho, más de lo que puedo expresar con palabras. Quisiera pasar mucho más tiempo contigo, cumplir esas metas que un día nos planteamos. Va a ser difícil y mucho, tenemos ideas diferentes y muchas veces eso ha generado discusiones entre nosotros. Hemos cometido errores y es normal, nadie es perfecto. Y ahora, a poco tiempo de cumplir un año juntos, es cuando me pregunto: ¿qué tan lejos vamos a llegar? Cuando empezamos, no creías que íbamos a durar ni un mes, pero con el pasar de los meses, eso ha cambiado. Espero que no nos quedemos aquí y que esto siga creciendo, que cada día sea un día nuevo contigo, experimentar nuevas cosas y crecer juntos.</p>
+            <p>Crezcamos juntos, acompáñame por este camino. Vamos por eso que soñamos, estemos juntos durante mucho más tiempo. VAMOS POR MÁS ❤️</p>
+        </div>
+        <div class="photos">
+            <h2>¿Recuerdas?</h2> <!-- Texto cambiado aquí -->
+            <div class="photo-gallery">
+                <img src="foto1.jpg" alt="Foto 1">
+                <img src="foto2.jpg" alt="Foto 2">
+                <img src="foto3.jpg" alt="Foto 3">
+            </div>
+        </div>
+        <div class="videos">
+            <h2>¿Y cómo olvidar?</h2> <!-- Texto cambiado aquí -->
+            <div class="video-gallery">
+                <video controls>
+                    <source src="video1.mp4" type="video/mp4">
+                    Tu navegador no soporta el video.
+                </video>
+                <video controls>
+                    <source src="video2.mp4" type="video/mp4">
+                    Tu navegador no soporta el video.
+                </video>
+            </div>
+        </div>
+        <div class="countdown" id="countdown"></div> <!-- Contador -->
+    </div>
+
+    <script>
+        function updateCountdown() {
+            const targetDate = new Date('2024-11-19T00:00:00'); // Cambia la fecha a la meta
+            const now = new Date();
+            const remainingTime = targetDate - now;
+
+            const days = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
+
+            document.getElementById('countdown').innerHTML = 
+                `${days} días, ${hours} horas, ${minutes} minutos y ${seconds} segundos.`;
+
+            if (remainingTime < 0) {
+                document.getElementById('countdown').innerHTML = "¡Feliz primer año!";
+                clearInterval(interval);
+            }
+        }
+
+        const interval = setInterval(updateCountdown, 1000);
+        updateCountdown(); // Llamar a la función una vez al cargar
+    </script>
+</body>
+</html>
